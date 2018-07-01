@@ -3,13 +3,18 @@
 <style>
     .button {
         width: 60px;
+        color: red;
     }
+
 </style>
 <head>
     <meta charset="UTF-8">
+    <div class="sign">
     <title>Sign In</title>
+    </div>
 </head>
 <body>
+<div class="writing">
 <p><form action ="https://getsimpleform.com/messages?form_api_token=f8b4731f88fc5a3fbc8212aa23bf4186" method="post">
   User  <input type="text" required placeholder="Username" name="username">
 <p>
@@ -30,6 +35,8 @@
 <p>
   Here  <input type="text" placeholder="Time Spent Here" name="time">
 </p>
+</div>
+<div>
 <p>
 Select Your Transport Type:
     <br />
@@ -40,6 +47,8 @@ Select Your Transport Type:
     <input type="radio" name="transport" value="train" />
     Train
 </p>
+</div>
+<div>
 <p>
     Please select your Day:
     <br />
@@ -58,6 +67,8 @@ Select Your Transport Type:
     <input type="checkbox" name="day" value="Sunday" />
     Sunday
 </p>
+</div>
+<div>
 <p> What kind of ice cream do you like?
     <select name="cream">
         <option value="chocolate"> Chocolate</option>
@@ -65,6 +76,7 @@ Select Your Transport Type:
         <option value="cherry"> Cherry</option>
     </select>
 </p>
+</div>
     <button type="submit" class="button">Submit Info</button>
 </form>
 </body>
